@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Leer hoe een neuron moleculair is opgebouwd, hoe neuronen elektrisch en chemisch communiceren en hoe hersengebieden samenwerken.">
+  <title>Neuron & brein — Breinpotentieel</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307111f'/%3E%3Ccircle cx='19' cy='20' r='6' fill='%2365d6c4'/%3E%3Ccircle cx='45' cy='18' r='5' fill='%23ffbd66'/%3E%3Ccircle cx='31' cy='45' r='7' fill='%23eef7f6'/%3E%3Cpath d='M24 22l16-3M22 25l7 14M42 22l-8 17' stroke='%23eef7f6' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#inhoud">Ga naar de inhoud</a>
+
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Breinpotentieel, naar startpagina">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Breinpotentieel</span>
+    </a>
+    <nav aria-label="Navigatie van deze pagina">
+      <a href="index.html">Overzicht</a>
+      <a href="#neuron">Neuron</a>
+      <a href="#communicatie">Communicatie</a>
+      <a href="#brein">Brein</a>
+      <a href="#toets-architectuur">Zelftoets</a>
+    </nav>
+  </header>
+
+  <main id="inhoud">
+    <section class="hero architecture-hero" id="start">
+      <div class="eyebrow"><span>Verdieping · architectuur</span><span>Van nanometer tot hersennetwerk</span></div>
+      <div class="architecture-intro">
+        <div>
+          <p class="kicker">De hardware en haar berichtenverkeer</p>
+          <h1>Van <em>molecule</em> tot gedachte.</h1>
+          <p class="lede">Een neuron blijft leven als cel, rekent met elektrische spanningsverschillen en communiceert meestal chemisch aan een synaps. Miljarden van zulke lokale interacties vormen verspreide hersennetwerken.</p>
+        </div>
+        <ol class="scale-ladder" aria-label="Schaalniveaus van de pagina">
+          <li><span>10⁻⁹–10⁻⁶ m</span><strong>Moleculen & organellen</strong></li>
+          <li><span>10⁻⁶–1 m</span><strong>Neuron & axon</strong></li>
+          <li><span>20–40 nm</span><strong>Chemische synaps</strong></li>
+          <li><span>centimeters</span><strong>Hersengebieden & netwerken</strong></li>
+        </ol>
+      </div>
+      <nav class="page-map" aria-label="Leerroute">
+        <a href="#neuron"><span>01</span><strong>Bouw een neuron</strong><small>onderdelen en organellen</small></a>
+        <a href="#communicatie"><span>02</span><strong>Volg een signaal</strong><small>ionen tot neurotransmitters</small></a>
+        <a href="#brein"><span>03</span><strong>Zoom uit naar het brein</strong><small>gebieden, functies en netwerken</small></a>
+      </nav>
+    </section>
+
+    <section class="section" id="neuron">
+      <header class="section-heading split-heading">
+        <div><span class="chapter">01 · architectuur van een neuron</span><h2>Eén cel, twee soorten onderdelen</h2></div>
+        <p>Een neuron bezit de huishoudelijke organellen van andere dierlijke cellen, plus gespecialiseerde uitlopers en membraaneiwitten voor informatieverwerking.</p>
+      </header>
+
+      <div class="neuron-schematic" role="img" aria-label="Signaalrichting door een neuron: dendrieten, cellichaam, axonheuvel, axon en synaptische uiteinden">
+        <div class="schematic-node receive"><span>input</span><strong>Dendrieten</strong><small>ontvangen duizenden synaptische invloeden</small></div>
+        <b aria-hidden="true">→</b>
+        <div class="schematic-node integrate"><span>integratie</span><strong>Cellichaam</strong><small>telt lokale spanningsveranderingen op</small></div>
+        <b aria-hidden="true">→</b>
+        <div class="schematic-node decide"><span>beslispunt</span><strong>Axoninitialsegment</strong><small>start een actiepotentiaal bij drempel</small></div>
+        <b aria-hidden="true">→</b>
+        <div class="schematic-node conduct"><span>geleiding</span><strong>Axon</strong><small>verplaatst het elektrische signaal</small></div>
+        <b aria-hidden="true">→</b>
+        <div class="schematic-node output"><span>output</span><strong>Axonterminal</strong><small>geeft transmitter af aan doelcellen</small></div>
+      </div>
+
+      <div class="architecture-grid">
+        <article class="component-card featured"><span class="component-type">grens & elektrisch platform</span><h3>Plasmamembraan</h3><p>Een fosfolipidendubbellaag die binnen- en buitenmilieu scheidt. Ingebedde kanalen, pompen, transporters en receptoren regelen welke stoffen en ionen passeren.</p><footer><strong>Zonder dit:</strong> geen ionengradiënt, rustpotentiaal of gerichte signaaloverdracht.</footer></article>
+        <article class="component-card"><span class="component-type">besturing</span><h3>Kern & DNA</h3><p>Bevat het genoom. Genexpressie bepaalt welke kanalen, receptoren, enzymen en structurele eiwitten worden geproduceerd.</p><footer><strong>Kernidee:</strong> activiteit kan via signaalroutes genexpressie veranderen.</footer></article>
+        <article class="component-card"><span class="component-type">eiwitproductie</span><h3>Ribosomen, ruw ER & Golgi</h3><p>Ribosomen bouwen eiwitten; het ruw endoplasmatisch reticulum helpt ze vouwen; het Golgi-apparaat modificeert, sorteert en verpakt ze.</p><footer><strong>Producten:</strong> receptoren, ionkanalen, transporters en membraaneiwitten.</footer></article>
+        <article class="component-card"><span class="component-type">energie</span><h3>Mitochondriën</h3><p>Maken ATP en bufferen mee calcium. ATP voedt vooral ionenpompen, transport, onderhoud en synthese — elektrische activiteit is energetisch duur.</p><footer><strong>Belangrijk:</strong> bevinden zich ook in axonen en synapsen waar de vraag hoog is.</footer></article>
+        <article class="component-card"><span class="component-type">recycling</span><h3>Lysosomen & autofagie</h3><p>Breken beschadigde eiwitten, membranen en organellen af. Proteasomen verwijderen vooral afzonderlijke ongewenste eiwitten.</p><footer><strong>Doel:</strong> proteostase en kwaliteitscontrole in een langlevende cel.</footer></article>
+        <article class="component-card"><span class="component-type">skelet & logistiek</span><h3>Cytoskelet</h3><p>Microtubuli, neurofilamenten en actine geven vorm en vormen transportroutes. Motorproteïnen kinesine en dyneïne vervoeren cargo van en naar verre axonuiteinden.</p><footer><strong>Waarom cruciaal:</strong> een menselijk axon kan uitzonderlijk lang zijn.</footer></article>
+        <article class="component-card"><span class="component-type">input</span><h3>Dendrieten & spines</h3><p>Vertakte uitlopers vergroten het ontvangstoppervlak. Veel excitatoire synapsen zitten op kleine dendritische spines die lokaal kunnen veranderen.</p><footer><strong>Functie:</strong> input ontvangen, compartimenteren en integreren.</footer></article>
+        <article class="component-card"><span class="component-type">output</span><h3>Axon & terminals</h3><p>Het axon voert actiepotentialen weg van het cellichaam. Terminals bevatten synaptische blaasjes, actieve zones en spanningsafhankelijke Ca²⁺-kanalen.</p><footer><strong>Functie:</strong> een elektrisch signaal omzetten in transmitterafgifte.</footer></article>
+        <article class="component-card"><span class="component-type">isolatie door gliacellen</span><h3>Myeline & knopen van Ranvier</h3><p>Oligodendrocyten wikkelen myeline rond axonen in het centrale zenuwstelsel. Actiepotentialen worden actief vernieuwd bij de myelinevrije knopen.</p><footer><strong>Effect:</strong> snellere, zuinigere saltatoire geleiding.</footer></article>
+      </div>
+
+      <div class="glia-note">
+        <div><span>Geen neuron werkt alleen</span><h3>De functionele eenheid is neuron + glia + bloedvat.</h3></div>
+        <ul>
+          <li><strong>Astrocyten</strong> reguleren extracellulaire ionen, nemen transmitters op en koppelen activiteit aan lokale energietoevoer.</li>
+          <li><strong>Oligodendrocyten</strong> vormen myeline en ondersteunen axonen metabolisch.</li>
+          <li><strong>Microglia</strong> bewaken weefsel, ruimen schade op en beïnvloeden synapsremodellering.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section signal-section" id="communicatie">
+      <header class="section-heading split-heading">
+        <div><span class="chapter">02 · communicatie tussen neuronen</span><h2>Elektrisch binnenin, chemisch ertussen</h2></div>
+        <p>Een klassiek signaal doorloopt zeven omzettingen. Kies hieronder een stap; de moleculaire spelers en hun precieze rol verschijnen ernaast.</p>
+      </header>
+
+      <div class="signal-explorer">
+        <div class="signal-steps" role="tablist" aria-label="Stappen van neurale communicatie">
+          <button role="tab" aria-selected="true" data-signal="rest"><span>01</span>Rustpotentiaal</button>
+          <button role="tab" aria-selected="false" data-signal="input"><span>02</span>Lokale input</button>
+          <button role="tab" aria-selected="false" data-signal="trigger"><span>03</span>Drempel & start</button>
+          <button role="tab" aria-selected="false" data-signal="spike"><span>04</span>Actiepotentiaal</button>
+          <button role="tab" aria-selected="false" data-signal="calcium"><span>05</span>Ca²⁺ & exocytose</button>
+          <button role="tab" aria-selected="false" data-signal="receptor"><span>06</span>Receptorrespons</button>
+          <button role="tab" aria-selected="false" data-signal="clear"><span>07</span>Beëindiging</button>
+        </div>
+        <article class="signal-panel" id="signal-panel" aria-live="polite"></article>
+      </div>
+
+      <div class="ion-table-wrap">
+        <header><span class="chapter">De belangrijkste ionen</span><h3>Spanning ontstaat uit concentratieverschillen én selectieve doorlaatbaarheid</h3></header>
+        <div class="ion-grid">
+          <article><span class="ion sodium">Na⁺</span><h4>Natrium</h4><p>Veel hoger buiten de cel. Instroom via Naᵥ-kanalen veroorzaakt de snelle depolarisatie van het actiepotentiaal.</p></article>
+          <article><span class="ion potassium">K⁺</span><h4>Kalium</h4><p>Veel hoger binnen de cel. Lekkanalen bepalen sterk het rustpotentiaal; uitstroom via Kᵥ-kanalen repolariseert.</p></article>
+          <article><span class="ion calcium">Ca²⁺</span><h4>Calcium</h4><p>Zeer laag in het cytosol. Instroom is een krachtig signaal voor vesikelfusie, enzymactiviteit en plasticiteit.</p></article>
+          <article><span class="ion chloride">Cl⁻</span><h4>Chloride</h4><p>De richting van de stroom hangt af van zijn gradiënt. In volwassen neuronen maakt GABA<sub>A</sub>-activatie vuren meestal minder waarschijnlijk.</p></article>
+        </div>
+      </div>
+
+      <div class="myth-grid">
+        <article><span>Veelgemaakte fout 01</span><h3>De Na⁺/K⁺-pomp veroorzaakt niet elke spike.</h3><p>Ze gebruikt ATP om op langere termijn de Na⁺- en K⁺-gradiënten te onderhouden. De milliseconde-vorm van een actiepotentiaal ontstaat vooral door het openen en inactiveren van spanningsafhankelijke kanalen.</p></article>
+        <article><span>Veelgemaakte fout 02</span><h3>Een neurotransmitter is niet simpelweg “goed” of “slecht”.</h3><p>Het effect hangt af van receptor, doelcel, locatie en timing. Dezelfde transmitter kan via verschillende receptoren snelle ionstromen of trage modulerende cascades veroorzaken.</p></article>
+      </div>
+
+      <header class="subheading"><span class="chapter">Chemische woordenschat</span><h2>Zes belangrijke transmitters</h2><p>Dit zijn systeemrollen, geen één-op-éénlabels voor emoties of gedrag.</p></header>
+      <div class="transmitter-grid">
+        <article><span>meestal snel exciterend</span><h3>Glutamaat</h3><p>Belangrijkste excitatoire transmitter in het volwassen brein. AMPA- en NMDA-receptoren zijn centraal in snelle transmissie en veel vormen van synaptische plasticiteit.</p></article>
+        <article><span>meestal snel inhiberend</span><h3>GABA</h3><p>Belangrijkste inhibitoire transmitter in het volwassen brein. GABA<sub>A</sub> is een ionkanaal; GABA<sub>B</sub> werkt trager via G-eiwitten.</p></article>
+        <article><span>modulator</span><h3>Dopamine</h3><p>Moduleert onder meer leren uit uitkomsten, motivatie, actie-selectie en beweging via verschillende circuits en receptorfamilies.</p></article>
+        <article><span>modulator</span><h3>Noradrenaline</h3><p>Regelt toestand en responsiviteit van brede netwerken, onder meer waakzaamheid, aandacht en reacties op onzekerheid of stress.</p></article>
+        <article><span>modulator</span><h3>Serotonine</h3><p>Werkt via vele receptortypen en beïnvloedt onder meer stemming, slaap-waakregulatie, impulscontrole en sensorische verwerking.</p></article>
+        <article><span>snel én modulerend</span><h3>Acetylcholine</h3><p>Speelt rollen in aandacht, leren en geheugen en activeert spieren aan de neuromusculaire overgang. Nicotinerge en muscarinerge receptoren werken verschillend.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="brein">
+      <header class="section-heading split-heading">
+        <div><span class="chapter">03 · architectuur van het brein</span><h2>Geen kast met losse functies</h2></div>
+        <p>Gebieden hebben specialisaties, maar vrijwel elke complexe functie ontstaat uit samenwerking in netwerken. Selecteer een structuur om haar kernrol en verbindingen te bekijken.</p>
+      </header>
+
+      <div class="brain-explorer">
+        <div class="brain-levels" role="tablist" aria-label="Hersenstructuren">
+          <button role="tab" aria-selected="true" data-brain="frontal"><span>Cortex</span>Frontale kwab</button>
+          <button role="tab" aria-selected="false" data-brain="parietal"><span>Cortex</span>Pariëtale kwab</button>
+          <button role="tab" aria-selected="false" data-brain="temporal"><span>Cortex</span>Temporale kwab</button>
+          <button role="tab" aria-selected="false" data-brain="occipital"><span>Cortex</span>Occipitale kwab</button>
+          <button role="tab" aria-selected="false" data-brain="insula"><span>Cortex</span>Insula</button>
+          <button role="tab" aria-selected="false" data-brain="hippocampus"><span>Diep</span>Hippocampus</button>
+          <button role="tab" aria-selected="false" data-brain="amygdala"><span>Diep</span>Amygdala</button>
+          <button role="tab" aria-selected="false" data-brain="basal"><span>Diep</span>Basale ganglia</button>
+          <button role="tab" aria-selected="false" data-brain="thalamus"><span>Diep</span>Thalamus</button>
+          <button role="tab" aria-selected="false" data-brain="hypothalamus"><span>Diep</span>Hypothalamus</button>
+          <button role="tab" aria-selected="false" data-brain="cerebellum"><span>Achteraan</span>Cerebellum</button>
+          <button role="tab" aria-selected="false" data-brain="brainstem"><span>Onderkant</span>Hersenstam</button>
+        </div>
+        <article class="brain-panel" id="brain-panel" aria-live="polite"></article>
+      </div>
+
+      <div class="organization-levels">
+        <article><span>micro</span><h3>Lokale circuits</h3><p>Excitatoire projectieneuronen en inhibitoire interneuronen vormen terugkerende microcircuits. Hun timing en balans bepalen wat wordt doorgelaten.</p></article>
+        <article><span>meso</span><h3>Banen & lussen</h3><p>Witte-stofbanen verbinden gebieden. Veel verwerking verloopt in lussen, zoals cortex–basale ganglia–thalamus–cortex.</p></article>
+        <article><span>macro</span><h3>Functionele netwerken</h3><p>Verspreide gebieden vormen dynamische netwerken voor aandacht, interne gedachte, cognitieve controle, geheugen en sensorimotoriek.</p></article>
+      </div>
+
+      <div class="network-example">
+        <div><span class="chapter">Voorbeeld · een nieuw woord leren</span><h3>Eén prestatie, meerdere systemen</h3></div>
+        <div class="network-flow" role="img" aria-label="Visuele of auditieve input wordt verwerkt en gekoppeld aan taal, hippocampus en controlefuncties">
+          <span>visuele of auditieve cortex<br><small>registreert patroon</small></span><b>→</b>
+          <span>temporale taalnetwerken<br><small>klank & betekenis</small></span><b>↔</b>
+          <span>hippocampus<br><small>bindt episode en context</small></span><b>↔</b>
+          <span>prefrontale/pariëtale netwerken<br><small>aandacht & oefenstrategie</small></span>
+        </div>
+        <p>Slaap en herhaalde activatie helpen de afhankelijkheid van de hippocampus geleidelijk veranderen terwijl corticale representaties stabiliseren. “Het taalcentrum” is dus geen enkel punt.</p>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="toets-architectuur">
+      <header class="section-heading split-heading">
+        <div><span class="chapter">04 · actieve reproductie</span><h2>Kun je de keten reconstrueren?</h2></div>
+        <p>Formuleer eerst hardop je antwoord. Open daarna pas de uitleg.</p>
+      </header>
+      <div class="quiz-grid">
+        <details><summary>Wat maakt een neuron anders dan een doorsnee dierlijke cel?</summary><p>Niet de basisorganellen, maar vooral zijn gepolariseerde bouw: dendrieten, een axoninitialsegment, een vaak lang axon, synaptische terminals en een zeer gespecialiseerde verdeling van ionkanalen en receptoren.</p></details>
+        <details><summary>Waarom is het rustpotentiaal negatief?</summary><p>Omdat ionen ongelijk verdeeld zijn en het rustende membraan selectiever doorlaatbaar is voor onder meer K⁺ dan voor Na⁺. Intracellulaire negatieve ladingen en de elektrogene Na⁺/K⁺-pomp dragen bij.</p></details>
+        <details><summary>Hoe wordt een elektrische spike chemische communicatie?</summary><p>De spike depolariseert de terminal → spanningsafhankelijke Ca²⁺-kanalen openen → Ca²⁺ bindt de exocytosemachinerie → vesikels fuseren → neurotransmitter bereikt receptoren.</p></details>
+        <details><summary>Waarom kun je geheugen niet aan één hersengebied toewijzen?</summary><p>De hippocampus is belangrijk voor het vormen en relationeel binden van veel declaratieve herinneringen, maar opslag, emotionele betekenis, werkgeheugen, vaardigheden en consolidatie gebruiken verschillende corticale en subcorticale netwerken.</p></details>
+      </div>
+    </section>
+
+    <section class="section sources" id="bronnen-architectuur">
+      <header class="section-heading"><span class="chapter">Verder lezen</span><h2>Bronnen & verdieping</h2></header>
+      <div class="source-list">
+        <a href="https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain" target="_blank" rel="noreferrer"><span>NINDS</span><strong>Brain Basics: Know Your Brain</strong><small>Neuronale en macroscopische hersenarchitectuur</small></a>
+        <a href="https://www.ncbi.nlm.nih.gov/books/NBK10957/" target="_blank" rel="noreferrer"><span>NCBI Bookshelf · Neuroscience</span><strong>What Defines a Neurotransmitter?</strong><small>Definitie en principes van chemische transmissie</small></a>
+        <a href="https://www.ncbi.nlm.nih.gov/books/NBK10883/" target="_blank" rel="noreferrer"><span>NCBI Bookshelf · Neuroscience</span><strong>Voltage-Gated Ion Channels</strong><small>Na⁺-, K⁺-, Ca²⁺-stromen en spanningsafhankelijke kanalen</small></a>
+        <a href="https://www.nimh.nih.gov/health/publications/get-to-know-your-brain" target="_blank" rel="noreferrer"><span>NIMH</span><strong>Get to Know Your Brain</strong><small>Gebieden, circuits en functies</small></a>
+      </div>
+      <p class="disclaimer">Deze pagina beschrijft het klassieke chemische synapsmodel. Elektrische synapsen, cotransmissie, neuromodulatie, volume transmission en de grote diversiteit aan neuron- en gliatypen maken het werkelijke systeem rijker.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a href="index.html">← Terug naar het causaliteitsmodel</a><p>Van molecule tot netwerk</p><a href="#start">Naar boven ↑</a></footer>
+  <script src="architecture.js"></script>
+</body>
+</html>
