@@ -285,10 +285,37 @@ details p { margin: 0 24px 24px; padding-top: 20px; border-top: 1px solid #e1e8e
 .network-flow b { color: var(--cyan); }
 .network-example > p { max-width: 850px; margin: 24px 0 0; color: #adbac1; font-size: .88rem; }
 
+/* Scientific visuals */
+.visual-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 30px 0 36px; }
+.science-figure { overflow: hidden; margin: 0; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 16px 42px rgba(7,17,31,.07); }
+.science-figure img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.image-stage { height: 420px; display: grid; place-items: center; padding: 22px; background: #f8fbfa; border-bottom: 1px solid var(--line); }
+.neuron-stage { background: linear-gradient(145deg, #f9fbfb, #e8f3f1); }
+.cell-stage { background: linear-gradient(145deg, #fffaf2, #f3f7f6); }
+.synapse-stage { background: #f5f8f8; }
+.chart-stage { padding: 0; background: #0d1c2e; }
+.science-figure figcaption { padding: 20px 22px 22px; color: #42515d; font-size: .88rem; line-height: 1.55; }
+.science-figure figcaption strong { color: var(--ink); }
+.science-figure figcaption span { display: block; margin-top: 9px; color: #78868e; font-size: .73rem; line-height: 1.45; }
+.science-figure figcaption a { color: var(--cyan-dark); text-underline-offset: 2px; }
+.science-figure.dark-card { color: #edf7f6; background: #0d1c2e; border-color: #2a3b4e; box-shadow: none; }
+.science-figure.dark-card figcaption { color: #bec9ce; }
+.science-figure.dark-card figcaption strong { color: #fff; }
+.science-figure.dark-card figcaption span { color: #8fa0a9; }
+.science-figure.dark-card figcaption a { color: var(--cyan); }
+.wide-visual { margin: 0 0 46px; }
+.wide-visual > img { aspect-ratio: 11 / 4; object-fit: cover; background: var(--white); }
+.dark-figure { background: #0d1c2e; border-color: #2a3b4e; box-shadow: none; }
+.dark-figure figcaption { color: #bdc8cd; }
+.dark-figure figcaption strong { color: #fff; }
+.dark-figure figcaption span { color: #8799a3; }
+.brain-visual > img { aspect-ratio: 11 / 6.1; object-fit: contain; }
+.brain-visual { margin-bottom: 28px; }
+
 @media (max-width: 900px) {
   .topbar nav { gap: 14px; }
   .topbar nav a { font-size: .8rem; }
-  .hero-grid, .split-heading, .architecture-intro, .glia-note { grid-template-columns: 1fr; }
+  .hero-grid, .split-heading, .architecture-intro, .glia-note, .visual-grid { grid-template-columns: 1fr; }
   .hero-grid { align-items: start; }
   .formula-card { max-width: 520px; }
   .capacity-grid, .process-grid, .habit-grid { grid-template-columns: 1fr 1fr; }
@@ -309,6 +336,8 @@ details p { margin: 0 24px 24px; padding-top: 20px; border-top: 1px solid #e1e8e
   .brain-levels { border-right: 0; border-bottom: 1px solid var(--line); }
   .network-flow { grid-template-columns: 1fr; }
   .network-flow b { transform: rotate(90deg); justify-self: center; }
+  .image-stage { height: min(500px, 72vw); }
+  .wide-visual > img, .brain-visual > img { aspect-ratio: auto; min-height: 300px; object-fit: contain; }
 }
 
 @media (max-width: 620px) {
@@ -332,6 +361,9 @@ details p { margin: 0 24px 24px; padding-top: 20px; border-top: 1px solid #e1e8e
   .brain-levels { grid-template-columns: 1fr; }
   .brain-levels button { border-right: 0; }
   .network-example { padding: 24px; }
+  .image-stage { height: 310px; padding: 12px; }
+  .science-figure figcaption { padding: 17px; }
+  .wide-visual > img, .brain-visual > img { min-height: 230px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

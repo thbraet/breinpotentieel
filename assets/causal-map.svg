@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 400" role="img" aria-labelledby="title desc">
+  <title id="title">Causale kaart van gedrag naar cognitieve functie</title>
+  <desc id="desc">Gedrag beïnvloedt fysiologische processen, die cellulaire mechanismen beïnvloeden, die drie vormen van breinpotentieel ondersteunen en zo functionele capaciteit mogelijk maken.</desc>
+  <rect width="1100" height="400" rx="24" fill="#0d1c2e"/>
+  <g font-family="Inter,Arial,sans-serif">
+    <text x="45" y="48" fill="#eef7f6" font-size="24" font-weight="700">Onthoud de richting van de causaliteit</text>
+    <g transform="translate(42 83)">
+      <rect width="176" height="218" rx="18" fill="#13283c" stroke="#345066"/><text x="20" y="32" fill="#65d6c4" font-size="12" font-weight="800">01 · GEDRAG</text>
+      <g fill="#d9e5e7" font-size="15"><text x="20" y="74">beweging</text><text x="20" y="105">slaap</text><text x="20" y="136">voeding</text><text x="20" y="167">leren</text><text x="20" y="198">sociale context</text></g>
+      <path d="M186 109H222" stroke="#65d6c4" stroke-width="4"/><path d="M222 109l-12-8v16z" fill="#65d6c4"/>
+    </g>
+    <g transform="translate(264 83)">
+      <rect width="196" height="218" rx="18" fill="#13283c" stroke="#345066"/><text x="20" y="32" fill="#65d6c4" font-size="12" font-weight="800">02 · FYSIOLOGIE</text>
+      <g fill="#d9e5e7" font-size="15"><text x="20" y="74">doorbloeding</text><text x="20" y="105">energie &amp; glucose</text><text x="20" y="136">slaaparchitectuur</text><text x="20" y="167">stressregulatie</text><text x="20" y="198">inflammatiebalans</text></g>
+      <path d="M206 109H242" stroke="#65d6c4" stroke-width="4"/><path d="M242 109l-12-8v16z" fill="#65d6c4"/>
+    </g>
+    <g transform="translate(506 83)">
+      <rect width="196" height="218" rx="18" fill="#13283c" stroke="#345066"/><text x="20" y="32" fill="#65d6c4" font-size="12" font-weight="800">03 · MECHANISMEN</text>
+      <g fill="#d9e5e7" font-size="15"><text x="20" y="74">ATP &amp; homeostase</text><text x="20" y="105">synaptische transmissie</text><text x="20" y="136">myeline &amp; geleiding</text><text x="20" y="167">LTP / LTD</text><text x="20" y="198">onderhoud &amp; herstel</text></g>
+      <path d="M206 109H242" stroke="#65d6c4" stroke-width="4"/><path d="M242 109l-12-8v16z" fill="#65d6c4"/>
+    </g>
+    <g transform="translate(748 83)">
+      <rect width="182" height="218" rx="18" fill="#13283c" stroke="#65d6c4" stroke-width="2"/><text x="20" y="32" fill="#ffbd66" font-size="12" font-weight="800">04 · POTENTIEEL</text>
+      <circle cx="38" cy="75" r="15" fill="#6aa9ff"/><text x="64" y="81" fill="#eef7f6" font-size="15">neurale capaciteit</text>
+      <circle cx="38" cy="121" r="15" fill="#ffbd66"/><text x="64" y="127" fill="#eef7f6" font-size="15">netwerkcapaciteit</text>
+      <circle cx="38" cy="167" r="15" fill="#65d6c4"/><text x="64" y="173" fill="#eef7f6" font-size="15">plasticiteit</text>
+      <path d="M192 109H228" stroke="#65d6c4" stroke-width="4"/><path d="M228 109l-12-8v16z" fill="#65d6c4"/>
+    </g>
+    <g transform="translate(976 83)">
+      <rect width="88" height="218" rx="18" fill="#edf7f6"/><text x="44" y="32" fill="#087d70" font-size="12" font-weight="800" text-anchor="middle">05</text>
+      <g fill="#07111f" font-size="14" font-weight="700" text-anchor="middle"><text x="44" y="72">leren</text><text x="44" y="103">geheugen</text><text x="44" y="134">aandacht</text><text x="44" y="165">taal</text><text x="44" y="196">planning</text></g>
+    </g>
+    <rect x="42" y="328" width="1022" height="36" rx="18" fill="#162b3e"/><text x="553" y="351" fill="#aebcc3" font-size="14" text-anchor="middle">Een gewoonte beïnvloedt prestaties meestal indirect en via meerdere, overlappende routes.</text>
+  </g>
+</svg>
